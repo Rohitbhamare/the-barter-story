@@ -243,7 +243,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Aryan and Ishmeet',
     location: 'India',
-    image: '/images/uneza.png',
+    image: "https://lh3.googleusercontent.com/d/1DlyIQVSMbC3FY5p2NECkCD6d0J4b8j4Z",
     tone: 'oklch(0.68 0.05 62)',
     slug: 'aryan-ishmeet',
   },
