@@ -51,16 +51,11 @@ export const coupleGalleries: CoupleGallery[] = [
     location: 'India',
     coverImage: "https://lh3.googleusercontent.com/d/1mRYi2FoAYW9p5Lqb2smOyS0EjvDzdLnW",
     galleryImages: [
-      // "https://lh3.googleusercontent.com/d/link",
-
-      // "/images/uneza.png",
-      // '/images/uneza.png',
-      // "1mRYi2FoAYW9p5Lqb2smOyS0EjvDzdLnW",
+    
       "https://lh3.googleusercontent.com/d/1UOJreuR9S3oySJbTdatsL_8prJNWkeTy",
       "https://lh3.googleusercontent.com/d/1mRYi2FoAYW9p5Lqb2smOyS0EjvDzdLnW",
       "https://lh3.googleusercontent.com/d/1yACyIsLLj5jqEgn3kNM0WHVMNrrv_5Y5",
       "https://lh3.googleusercontent.com/d/17Gyqsxis9l61owzLQUPxkADCR5wI23da",
-      // "https://lh3.googleusercontent.com/d/d/1a1TQ33-BTfLPybVJCIIOqHkHnye7tSas",
       "https://lh3.googleusercontent.com/d/1-S3o7068LnhFA050HxIW4wrSywyWQ_Tx",
       "https://lh3.googleusercontent.com/d/13_SaaCp7iOswRZD-p9el95FtJfFUnxNq",
       "https://lh3.googleusercontent.com/d/1uHDHSKC4m3zo_ta_P2XvaPZXtzi-Qau7",
@@ -201,7 +196,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Siddesh & Ashwini',
     location: 'India',
-    image: '/images/sonam-robin-wide.png',
+    image: "https://lh3.googleusercontent.com/d/1mRYi2FoAYW9p5Lqb2smOyS0EjvDzdLnW",
     tone: 'oklch(0.72 0.06 60)',
     slug: 'siddesh-ashwini',
   },
