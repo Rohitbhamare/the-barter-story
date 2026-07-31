@@ -21,9 +21,9 @@ export function Logo({
       <Image
         src="/logo.png"
         alt="Moment of Love"
-        width={variant === 'mark' ? 80 : 80}
+        width={variant === 'mark' ? 75 : 75}
         // width={40}
-        height={80}
+        height={75}
         priority
       // className="h-auto w-auto"
       />
