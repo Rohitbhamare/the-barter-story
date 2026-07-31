@@ -73,7 +73,7 @@ export const coupleGalleries: CoupleGallery[] = [
     slug: 'shiv-divya',
     title: 'Shiv and Divya',
     location: 'India',
-    coverImage:  "https://lh3.googleusercontent.com/d/1poYItZCKW0x2QWhOkI8Pr8mcg-IqEqdH",
+    coverImage:  "https://lh3.googleusercontent.com/d/1gZ8kRPTlZH37O1FVAg2IKUJ7ZOgAV6Mm",
    galleryImages: [
   "https://lh3.googleusercontent.com/d/1B88CrhIeFMFwKN2731A4ziwGe4or11Fz",
   "https://lh3.googleusercontent.com/d/1Rmoz4R7Dfpjr3TEet_FlydxfSepWf_0g",
