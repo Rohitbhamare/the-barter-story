@@ -134,7 +134,8 @@ export const coupleGalleries: CoupleGallery[] = [
     slug: 'akshay-dipali',
     title: 'Akshay and Dipali',
     location: 'India',
-    coverImage: "https://lh3.googleusercontent.com/d/1p8tcvXj-nV2THUPfIK_5Rcxw7qR_YYrx",
+    coverImage:        "https://lh3.googleusercontent.com/d/1KXAaJyGXSMhs_Br4TDpbYiUCUPt5GV4U",
+
     galleryImages: [
       "https://lh3.googleusercontent.com/d/1nCJj3JECYRz4U4fxVs6kb9J4DbYKLYKo",
       "https://lh3.googleusercontent.com/d/1TQNxv2N9r03rPVt2qsqjCAWnxW2DsyHU",
@@ -151,7 +152,7 @@ export const coupleGalleries: CoupleGallery[] = [
       "https://lh3.googleusercontent.com/d/1WeygpXJdxIRlLnz6bbXX9lkM54bAhDrb",
       "https://lh3.googleusercontent.com/d/1Kg699wSauujGFsOEQnzi7pzXsc-Ra9zQ",
       "https://lh3.googleusercontent.com/d/1fAd6_jC6KzcqsHeri69rci2wCDteQfaI",
-      "https://lh3.googleusercontent.com/d/1KXAaJyGXSMhs_Br4TDpbYiUCUPt5GV4U",
+       "https://lh3.googleusercontent.com/d/1KXAaJyGXSMhs_Br4TDpbYiUCUPt5GV4U",
       "https://lh3.googleusercontent.com/d/1p8tcvXj-nV2THUPfIK_5Rcxw7qR_YYrx",
       "https://lh3.googleusercontent.com/d/19ezWHp5PU5bryPb0o2IrxeO6KrPyrZnw",
     ],
