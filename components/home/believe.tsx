@@ -48,7 +48,7 @@ export function Believe() {
         <div className="flex flex-col gap-16 md:pt-24">
           <Reveal className="relative aspect-[4/5] overflow-hidden" delay={0.1}>
             <Image
-              src="/images/couple-formal.png"
+              src="https://lh3.googleusercontent.com/d/1rAD-cvFxsvkFDT35HEERM-tiEkeAMG87"
               alt="Elegant couple in an ornate palace interior"
               fill
               sizes="(max-width: 768px) 100vw, 45vw"
