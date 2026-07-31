@@ -104,7 +104,7 @@ export function FilmsList({ films }: { films: FilmItem[] }) {
               {active.videoUrl ? (
                 <div className="relative aspect-video w-full bg-black">
                   <iframe
-                    src={'{active.videoUrl}'}
+                    src={`https://drive.google.com/file/d/${active.videoUrl.split('/d/')[1]?.split('/')[0]}/preview`}
                     className="h-full w-full"
                     allow="autoplay"
                     title={active.title}
