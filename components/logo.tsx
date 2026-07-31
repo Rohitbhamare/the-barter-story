@@ -23,9 +23,9 @@ export function Logo({
         alt="Moment of Love"
         width={variant === 'mark' ? 40 : 200}
         // width={40}
-        height={40}
+        height={500}
         priority
-        className="h-auto w-auto"
+      // className="h-auto w-auto"
       />
     </Link>
   )
