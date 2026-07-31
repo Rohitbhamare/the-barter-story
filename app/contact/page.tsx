@@ -1,11 +1,12 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
-import { InstagramIcon, Mail } from 'lucide-react'
+import { Mail } from 'lucide-react'
 import { Navbar } from '@/components/navbar'
 import { Footer } from '@/components/footer'
 import { InstagramStrip } from '@/components/instagram-strip'
 import { ContactForm } from '@/components/contact-form'
 import { Reveal } from '@/components/reveal'
+import { InstagramIcon, MailIcon } from '@/components/social-icons'
 import { social } from '@/lib/data'
 
 export const metadata: Metadata = {
@@ -104,7 +105,7 @@ export default function ContactPage() {
                     href={`mailto:${social.email}`}
                     className="inline-flex items-center gap-3 transition-colors hover:text-foreground"
                   >
-                    <Mail className="h-4 w-4" />
+                    <MailIcon className="h-4 w-4" />
                     {social.email}
                   </a>
                 </li>
