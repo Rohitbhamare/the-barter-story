@@ -67,6 +67,15 @@ export function Believe() {
               className="object-cover"
             />
           </Reveal>
+           <Reveal className="relative aspect-[4/5] overflow-hidden" delay={0.05}>
+            <Image
+              src="https://lh3.googleusercontent.com/d/1bf4IaKsXWQJmoo2l8APBjAuAs2HzaZRZ"
+              alt="A tender close-up of a bride and groom"
+              fill
+              sizes="(max-width: 768px) 100vw, 45vw"
+              className="object-cover"
+            />
+          </Reveal>
           <Reveal delay={0.1}>
             <Tagline pre="Just Moments That" script="Breathe" />
           </Reveal>
