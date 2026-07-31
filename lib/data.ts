@@ -49,7 +49,7 @@ export const coupleGalleries: CoupleGallery[] = [
     slug: 'siddesh-ashwini',
     title: 'Siddesh & Ashwini',
     location: 'India',
-    coverImage: '/images/sonam-robin-wide.png',
+    coverImage: "https://lh3.googleusercontent.com/d/1mRYi2FoAYW9p5Lqb2smOyS0EjvDzdLnW",
     galleryImages: [
       // "https://lh3.googleusercontent.com/d/link",
 
@@ -60,7 +60,7 @@ export const coupleGalleries: CoupleGallery[] = [
       "https://lh3.googleusercontent.com/d/1mRYi2FoAYW9p5Lqb2smOyS0EjvDzdLnW",
       "https://lh3.googleusercontent.com/d/1yACyIsLLj5jqEgn3kNM0WHVMNrrv_5Y5",
       "https://lh3.googleusercontent.com/d/17Gyqsxis9l61owzLQUPxkADCR5wI23da",
-      "https://lh3.googleusercontent.com/d/d/1a1TQ33-BTfLPybVJCIIOqHkHnye7tSas",
+      // "https://lh3.googleusercontent.com/d/d/1a1TQ33-BTfLPybVJCIIOqHkHnye7tSas",
       "https://lh3.googleusercontent.com/d/1-S3o7068LnhFA050HxIW4wrSywyWQ_Tx",
       "https://lh3.googleusercontent.com/d/13_SaaCp7iOswRZD-p9el95FtJfFUnxNq",
       "https://lh3.googleusercontent.com/d/1uHDHSKC4m3zo_ta_P2XvaPZXtzi-Qau7",
