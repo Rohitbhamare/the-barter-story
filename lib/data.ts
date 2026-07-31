@@ -260,7 +260,7 @@ export const portfolioItems: PortfolioItem[] = [
     image: '/images/jaspunith-jaspinder.png',
     tone: 'oklch(0.58 0.11 350)',
     slug: 'abhijeet-vaishanvee',
-  // },
+  }
   // {
   //   title: 'Our Stories',
   //   location: 'Collection',
