@@ -53,7 +53,8 @@ export const coupleGalleries: CoupleGallery[] = [
     galleryImages: [
       "https://drive.google.com/file/d/1FJjWroHR2ljY42qjOFCKfum1ur2gfYGe/view?usp=sharing",
       'https://drive.google.com/file/d/1FJjWroHR2ljY42qjOFCKfum1ur2gfYGe/view?usp=sharing',
-      '/images/keval-urvashi.png',
+      "https://drive.google.com/uc?export=view&id=1FJjWroHR2ljY42qjOFCKfum1ur2gfYGe",
+      "https://lh3.googleusercontent.com/d/1FJjWroHR2ljY42qjOFCKfum1ur2gfYGe",
       '/images/uneza.png',
       '/images/divya-charmis.png',
       '/images/jaspunith-jaspinder.png',
