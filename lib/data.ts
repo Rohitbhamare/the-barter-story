@@ -51,7 +51,7 @@ export const coupleGalleries: CoupleGallery[] = [
     location: 'India',
     coverImage: '/images/sonam-robin-wide.png',
     galleryImages: [
-      '/images/sonam-robin-wide.png',
+      'https://drive.google.com/file/d/1FJjWroHR2ljY42qjOFCKfum1ur2gfYGe/view?usp=sharing',
       '/images/mallika-abhishek.png',
       '/images/keval-urvashi.png',
       '/images/uneza.png',
