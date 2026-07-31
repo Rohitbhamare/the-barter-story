@@ -260,14 +260,14 @@ export const portfolioItems: PortfolioItem[] = [
     image: '/images/jaspunith-jaspinder.png',
     tone: 'oklch(0.58 0.11 350)',
     slug: 'abhijeet-vaishanvee',
-  },
-  {
-    title: 'Our Stories',
-    location: 'Collection',
-    image: '/images/arpita-jigar.png',
-    tone: 'oklch(0.7 0.07 70)',
-    slug: 'our-stories',
-  },
+  // },
+  // {
+  //   title: 'Our Stories',
+  //   location: 'Collection',
+  //   image: '/images/arpita-jigar.png',
+  //   tone: 'oklch(0.7 0.07 70)',
+  //   slug: 'our-stories',
+  // },
 ]
 
 export type FilmItem = {
