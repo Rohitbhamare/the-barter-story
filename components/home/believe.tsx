@@ -60,7 +60,7 @@ export function Believe() {
           </Reveal>
           <Reveal className="relative aspect-[4/5] overflow-hidden" delay={0.05}>
             <Image
-              src="/images/tender-couple.png"
+              src="https://lh3.googleusercontent.com/d/1GcvjDbKLDWEXAKd3obU3SZSpEkw-5t_i"
               alt="A tender close-up of a bride and groom"
               fill
               sizes="(max-width: 768px) 100vw, 45vw"
