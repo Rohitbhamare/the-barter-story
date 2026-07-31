@@ -17,10 +17,10 @@ export const footerLinks: NavLink[] = [
 
 export const social = {
   instagram: 'https://www.instagram.com/__moment.of.love',
-  whatsapp: 'https://wa.me/9170837 61636',
+  whatsapp: 'https://wa.me/917083761636',
   youtube: 'https://youtube.com/@momentoflove',
   email: 'hello@momentoflove.com',
-  handle: '@momentoflove',
+  handle: 'https://www.instagram.com/__moment.of.love',
 }
 
 export type PortfolioItem = {
