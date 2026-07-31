@@ -20,7 +20,7 @@ export const social = {
   whatsapp: 'https://wa.me/917083761636',
   youtube: 'https://youtube.com/@momentoflove',
   email: 'hello@momentoflove.com',
-  handle: '@momentoflove',
+  handle: 'https://www.instagram.com/__moment.of.love',
 }
 
 export type PortfolioItem = {
