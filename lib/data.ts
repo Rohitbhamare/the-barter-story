@@ -197,7 +197,7 @@ export const coupleGalleries: CoupleGallery[] = [
     testimonial:
       'Thank you for turning our wedding into timeless memories. Every photograph reflects genuine emotions and beautiful storytelling.',
     tone: 'oklch(0.58 0.11 350)',
-  // },
+  }
   // {
   //   slug: 'our-stories',
   //   title: 'Our Stories',
