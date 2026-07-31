@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
-import { Instagram, Mail } from 'lucide-react'
+import { InstagramIcon, Mail } from 'lucide-react'
 import { Navbar } from '@/components/navbar'
 import { Footer } from '@/components/footer'
 import { InstagramStrip } from '@/components/instagram-strip'
@@ -95,7 +95,7 @@ export default function ContactPage() {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-3 transition-colors hover:text-foreground"
                   >
-                    <Instagram className="h-4 w-4" />
+                    <InstagramIcon className="h-4 w-4" />
                     {social.handle}
                   </a>
                 </li>
