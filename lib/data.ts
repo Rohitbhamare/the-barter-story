@@ -115,6 +115,64 @@ export const coupleGalleries: CoupleGallery[] = [
       'Every photo speaks in whispers — natural, candid, and soaked in elegance. Thank you for keeping our story alive for years.',
     tone: 'oklch(0.68 0.05 62)',
   },
+
+
+
+  // asdfbdf my code 
+  {
+    slug: 'akshay-dipali',
+    title: 'Akshay and Dipali',
+    location: 'India',
+    coverImage: '/images/divya-charmis.png',
+    galleryImages: [
+      '/images/divya-charmis.png',
+      '/images/sonam-robin-wide.png',
+      '/images/mallika-abhishek.png',
+      '/images/keval-urvashi.png',
+      '/images/uneza.png',
+      '/images/jaspunith-jaspinder.png',
+    ],
+    testimonial:
+      'Every celebration deserves to be remembered beautifully. Thank you for capturing every emotion, every smile, and every unforgettable moment of our special day.',
+    tone: 'oklch(0.30 0.01 60)',
+  },
+  {
+    slug: 'abhijeet-vaishanvee',
+    title: 'Abhijeet and Vaishanvee',
+    location: 'India',
+    coverImage: '/images/jaspunith-jaspinder.png',
+    galleryImages: [
+      '/images/jaspunith-jaspinder.png',
+      '/images/divya-charmis.png',
+      '/images/sonam-robin-wide.png',
+      '/images/mallika-abhishek.png',
+      '/images/keval-urvashi.png',
+      '/images/uneza.png',
+    ],
+    testimonial:
+      'Thank you for turning our wedding into timeless memories. Every photograph reflects genuine emotions and beautiful storytelling.',
+    tone: 'oklch(0.58 0.11 350)',
+  },
+  {
+    slug: 'our-stories',
+    title: 'Our Stories',
+    location: 'Collection',
+    coverImage: '/images/arpita-jigar.png',
+    galleryImages: [
+      '/images/arpita-jigar.png',
+      '/images/sonam-robin-wide.png',
+      '/images/mallika-abhishek.png',
+      '/images/keval-urvashi.png',
+      '/images/uneza.png',
+      '/images/divya-charmis.png',
+      '/images/jaspunith-jaspinder.png',
+    ],
+    testimonial:
+      'A curated collection of our favourite wedding stories, moments, emotions and celebrations captured over the years.',
+    tone: 'oklch(0.70 0.07 70)',
+  }
+
+
 ]
 
 export const portfolioItems: PortfolioItem[] = [
