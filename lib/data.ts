@@ -108,9 +108,9 @@ export const coupleGalleries: CoupleGallery[] = [
     slug: 'aryan-ishmeet',
     title: 'Aryan and Ishmeet',
     location: 'India',
-    coverImage: "https://drive.google.com/uc?export=view&id=1Gj0-wHC1nlbO_NJ1ZqHn6iF-Y3TLVvCf",
+    coverImage: "https://lh3.googleusercontent.com/d/1Gj0-wHC1nlbO_NJ1ZqHn6iF-Y3TLVvCf",
     galleryImages: [
-      '/images/uneza.png',
+      "https://lh3.googleusercontent.com/d/1Gj0-wHC1nlbO_NJ1ZqHn6iF-Y3TLVvCf",
       '/images/divya-charmis.png',
       '/images/sonam-robin-wide.png',
       '/images/mallika-abhishek.png',
