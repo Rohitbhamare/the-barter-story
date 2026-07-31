@@ -16,8 +16,8 @@ export const footerLinks: NavLink[] = [
 ]
 
 export const social = {
-  instagram: 'https://instagram.com/momentoflove',
-  whatsapp: 'https://wa.me/910000000000',
+  instagram: 'https://www.instagram.com/__moment.of.love',
+  whatsapp: 'https://wa.me/9170837 61636',
   youtube: 'https://youtube.com/@momentoflove',
   email: 'hello@momentoflove.com',
   handle: '@momentoflove',
