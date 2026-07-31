@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react'
 import { Reveal } from '@/components/reveal'
 
 const previews = [
-  { title: 'Arpita & Jigar', image: '/images/arpita-jigar.png', span: 'md:col-span-3 md:mt-16' },
+  { title: 'Arpita & Jigar', image: 'https://lh3.googleusercontent.com/d/1qToqzqpmZ_G6RltUy1cCks1cyRUB4DmH', span: 'md:col-span-3 md:mt-16' },
   { title: 'Mallika & Abhishek', image: '/images/mallika-abhishek.png', span: 'md:col-span-6' },
   { title: 'Keval & Urvashi', image: '/images/keval-urvashi.png', span: 'md:col-span-3 md:mt-24' },
 ]
