@@ -105,17 +105,17 @@ export function FilmsList({ films }: { films: FilmItem[] }) {
                 <div className="relative aspect-video w-full bg-black">
                   {
 
-                    <div className="relative aspect-video w-full bg-black">
-                      <iframe
-                        className="h-full w-full"
-                        src={`https://www.youtube.com/embed/${active.videoUrl}`}
-                        title={active.title}
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerPolicy="strict-origin-when-cross-origin"
-                        allowFullScreen
-                      />
-                    </div>
+
+                    <iframe
+                      className="h-full w-full"
+                      src={`https://www.youtube.com/embed/${active.videoUrl}`}
+                      title={active.title}
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerPolicy="strict-origin-when-cross-origin"
+                      allowFullScreen
+                    />
+
 
 
                   /* <iframe
