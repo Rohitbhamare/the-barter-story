@@ -52,7 +52,7 @@ export const coupleGalleries: CoupleGallery[] = [
     coverImage: '/images/sonam-robin-wide.png',
     galleryImages: [
       "https://drive.google.com/file/d/1FJjWroHR2ljY42qjOFCKfum1ur2gfYGe/view?usp=sharing",
-      '/images/mallika-abhishek.png',
+      'https://drive.google.com/file/d/1FJjWroHR2ljY42qjOFCKfum1ur2gfYGe/view?usp=sharing',
       '/images/keval-urvashi.png',
       '/images/uneza.png',
       '/images/divya-charmis.png',
