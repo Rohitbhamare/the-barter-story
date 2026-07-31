@@ -108,7 +108,7 @@ export const coupleGalleries: CoupleGallery[] = [
     slug: 'aryan-ishmeet',
     title: 'Aryan and Ishmeet',
     location: 'India',
-    coverImage: '/images/uneza.png',
+    coverImage: "https://drive.google.com/uc?export=view&id=1Gj0-wHC1nlbO_NJ1ZqHn6iF-Y3TLVvCf",
     galleryImages: [
       '/images/uneza.png',
       '/images/divya-charmis.png',
