@@ -16,11 +16,11 @@ export const footerLinks: NavLink[] = [
 ]
 
 export const social = {
-  instagram: 'https://instagram.com/thebarterstory',
+  instagram: 'https://instagram.com/momentoflove',
   whatsapp: 'https://wa.me/910000000000',
-  youtube: 'https://youtube.com/@thebarterstory',
-  email: 'hello@thebarterstory.com',
-  handle: '@thebarterstory',
+  youtube: 'https://youtube.com/@momentoflove',
+  email: 'hello@momentoflove.com',
+  handle: '@momentoflove',
 }
 
 export type PortfolioItem = {
@@ -28,50 +28,58 @@ export type PortfolioItem = {
   location: string
   image: string
   tone: string
+  link?: string
 }
 
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Sonam & Robin',
-    location: 'Goa, India',
+    title: 'Siddesh & Ashwini',
+    location: 'India',
     image: '/images/sonam-robin-wide.png',
     tone: 'oklch(0.72 0.06 60)',
+    link: 'https://drive.google.com/open?id=1jqd8e8tdof69Kk4mcxXJILjJ3dxRnII-&usp=drive_copy',
   },
   {
-    title: 'Mallika & Abhishek',
-    location: 'Mumbai, India',
+    title: 'Shiv and Divya',
+    location: 'India',
     image: '/images/mallika-abhishek.png',
     tone: 'oklch(0.5 0.12 145)',
+    link: 'https://drive.google.com/open?id=1GyAZs08EZF4YjfPiXf28nlrRplj2lSGf&usp=drive_copy',
   },
   {
-    title: 'Keval & Urvashi',
-    location: 'Goa, India',
+    title: 'Neha and Bhavneet',
+    location: 'India',
     image: '/images/keval-urvashi.png',
     tone: 'oklch(0.28 0.01 60)',
+    link: 'https://drive.google.com/open?id=1DHE7IAEZdJC10JUjuJw4dcPIulVfpneR&usp=drive_copy',
   },
   {
-    title: 'Uneza',
-    location: 'Lonavala, India',
+    title: 'Aryan and Ishmeet',
+    location: 'India',
     image: '/images/uneza.png',
     tone: 'oklch(0.68 0.05 62)',
+    link: 'https://drive.google.com/open?id=1kQNQH0fqAtT7yquqdKV5Mz8nCs0OwvHo&usp=drive_copy',
   },
   {
-    title: 'Divya & Charmis',
-    location: 'Krabi, Thailand',
+    title: 'Akshay and Dipali',
+    location: 'India',
     image: '/images/divya-charmis.png',
     tone: 'oklch(0.3 0.01 60)',
+    link: 'https://drive.google.com/open?id=1_2so4-fXK3YFs_xIUx0UjfPUd0I5gu-T&usp=drive_copy',
   },
   {
-    title: 'Jaspunith & Jaspinder',
-    location: 'Landour, India',
+    title: 'Abhijeet and Vaishanvee',
+    location: 'India',
     image: '/images/jaspunith-jaspinder.png',
     tone: 'oklch(0.58 0.11 350)',
+    link: 'https://drive.google.com/open?id=1PiPIRn_j1_ddRQILz5WAEvJlGufzXT8a&usp=drive_copy',
   },
   {
-    title: 'Arpita & Jigar',
-    location: 'Jaipur, India',
+    title: 'Our Stories',
+    location: 'Collection',
     image: '/images/arpita-jigar.png',
     tone: 'oklch(0.7 0.07 70)',
+    link: 'https://drive.google.com/open?id=1HJTs7f9KMFobHhI3GGiJEFS2YDnuQ7lf&usp=drive_copy',
   },
 ]
 
@@ -79,23 +87,21 @@ export type FilmItem = {
   title: string
   subtitle: string
   image: string
+  videoUrl?: string
 }
 
 export const filmItems: FilmItem[] = [
   {
-    title: 'Abhishek & Mallika',
+    title: 'Film One',
     subtitle: 'Wedding Film',
     image: '/images/mallika-abhishek.png',
+    videoUrl: 'https://drive.google.com/file/d/1HB-i2VpGVlMjWRQmhaf6rpX_pAR2Zt5V/view?usp=drive_link',
   },
   {
-    title: 'Sonam & Robin',
+    title: 'Film Two',
     subtitle: 'A Documentary Film',
     image: '/images/sonam-robin.png',
-  },
-  {
-    title: 'Shalaka & Nikhil',
-    subtitle: 'Wedding Film',
-    image: '/images/shalaka-nikhil.png',
+    videoUrl: 'https://drive.google.com/file/d/1zDVfkZxPhSVp_ls6zO19YKKzSboBoKS-/view?usp=drive_link',
   },
 ]
 

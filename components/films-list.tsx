@@ -101,24 +101,35 @@ export function FilmsList({ films }: { films: FilmItem[] }) {
               className="relative w-full max-w-4xl overflow-hidden"
               onClick={(e) => e.stopPropagation()}
             >
-              <div className="relative aspect-video w-full bg-black">
-                <Image
-                  src={active.image || '/placeholder.svg'}
-                  alt={active.title}
-                  fill
-                  sizes="100vw"
-                  className="object-cover opacity-70"
-                />
-                <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 text-center">
-                  <Play className="h-14 w-14 fill-background text-background" />
-                  <p className="font-serif text-2xl uppercase tracking-wide text-background sm:text-3xl">
-                    {active.title}
-                  </p>
-                  <p className="text-xs uppercase tracking-brand text-background/80">
-                    {active.subtitle} — trailer coming soon
-                  </p>
+              {active.videoUrl ? (
+                <div className="relative aspect-video w-full bg-black">
+                  <iframe
+                    src={`https://drive.google.com/file/d/${active.videoUrl.split('/d/')[1]?.split('/')[0]}/preview`}
+                    className="h-full w-full"
+                    allow="autoplay"
+                    title={active.title}
+                  />
                 </div>
-              </div>
+              ) : (
+                <div className="relative aspect-video w-full bg-black">
+                  <Image
+                    src={active.image || '/placeholder.svg'}
+                    alt={active.title}
+                    fill
+                    sizes="100vw"
+                    className="object-cover opacity-70"
+                  />
+                  <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 text-center">
+                    <Play className="h-14 w-14 fill-background text-background" />
+                    <p className="font-serif text-2xl uppercase tracking-wide text-background sm:text-3xl">
+                      {active.title}
+                    </p>
+                    <p className="text-xs uppercase tracking-brand text-background/80">
+                      {active.subtitle} — trailer coming soon
+                    </p>
+                  </div>
+                </div>
+              )}
             </motion.div>
           </motion.div>
         )}

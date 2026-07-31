@@ -12,11 +12,11 @@ import { social } from '@/lib/data'
 export const metadata: Metadata = {
   title: 'Contact',
   description:
-    'Begin your story with The Barter Story. Share a few details about your celebration and we will be in touch.',
+    'Begin your story with Moment of Love. Share a few details about your celebration and we will be in touch.',
 }
 
 const intro = [
-  "At The Barter Story, we're drawn to the quiet beauty found in emotion — fleeting glances, shared laughter, unspoken promises. Our philosophy centers on capturing these honest exchanges in a way that feels both intimate and timeless.",
+  "At Moment of Love, we're drawn to the quiet beauty found in emotion — fleeting glances, shared laughter, unspoken promises. Our philosophy centers on capturing these honest exchanges in a way that feels both intimate and timeless.",
   'With years of experience framing love across continents, our work blends natural storytelling with an editorial eye — minimalist in approach, yet rich in feeling. Each frame is composed with care, balancing luxury with warmth.',
   'Our team is small, thoughtful, and quietly passionate — creating space for your story to unfold, without ever overshadowing it.',
   "The truest moments aren't staged — they're felt, and deserve to be remembered just as they were.",
@@ -52,7 +52,7 @@ export default function ContactPage() {
             </Reveal>
             <Reveal delay={0.1} className="pb-2">
               <p className="font-serif text-4xl font-bold text-foreground sm:text-5xl">
-                TheBarterStory<span className="text-accent">.</span>
+                Moment of Love
               </p>
             </Reveal>
           </div>

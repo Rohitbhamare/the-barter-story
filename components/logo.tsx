@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { cn } from '@/lib/utils'
 
 export function Logo({
@@ -11,19 +12,20 @@ export function Logo({
   return (
     <Link
       href="/"
-      aria-label="The Barter Story — home"
+      aria-label="Moment of Love — home"
       className={cn(
-        'font-serif leading-none text-foreground transition-opacity hover:opacity-70',
+        'leading-none transition-opacity hover:opacity-70',
         className,
       )}
     >
-      {variant === 'mark' ? (
-        <span className="text-3xl font-bold tracking-tight">B<span className="text-accent">.</span></span>
-      ) : (
-        <span className="text-2xl font-bold tracking-tight">
-          TheBarterStory<span className="text-accent">.</span>
-        </span>
-      )}
+      <Image
+        src="/logo.png"
+        alt="Moment of Love"
+        width={variant === 'mark' ? 60 : 200}
+        height={60}
+        priority
+        className="h-auto w-auto"
+      />
     </Link>
   )
 }

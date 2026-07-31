@@ -8,7 +8,7 @@ import { filmItems } from '@/lib/data'
 export const metadata: Metadata = {
   title: 'Films',
   description:
-    'Cinematic wedding films by The Barter Story — documentary storytelling that lets your moments breathe.',
+    'Cinematic wedding films by Moment of Love — documentary storytelling that lets your moments breathe.',
 }
 
 export default function FilmsPage() {

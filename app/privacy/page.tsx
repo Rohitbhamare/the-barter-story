@@ -4,9 +4,9 @@ import { Footer } from '@/components/footer'
 import { Reveal } from '@/components/reveal'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy — The Barter Story',
+  title: 'Privacy Policy — Moment of Love',
   description:
-    'How The Barter Story collects, uses, and protects the information you share with us.',
+    'How Moment of Love collects, uses, and protects the information you share with us.',
 }
 
 const sections = [
@@ -28,7 +28,7 @@ const sections = [
   },
   {
     heading: 'Get in touch',
-    body: 'For any question about your privacy or the details we hold, email us at hello@thebarterstory.com and we will respond personally.',
+    body: 'For any question about your privacy or the details we hold, email us at hello@momentoflove.com and we will respond personally.',
   },
 ]
 
@@ -40,7 +40,7 @@ export default function PrivacyPage() {
         <section className="mx-auto max-w-3xl px-6 pb-24 pt-36 md:pt-44">
           <Reveal>
             <p className="tracking-brand text-xs uppercase text-muted-foreground">
-              The Barter Story
+              Moment of Love
             </p>
             <h1 className="mt-4 font-serif text-4xl leading-tight text-foreground md:text-5xl">
               Privacy Policy

@@ -197,7 +197,7 @@ export function ContactForm() {
       <SiteButton type="submit">Request A Quote</SiteButton>
 
       <p className="mt-6 max-w-lg text-xs leading-relaxed text-muted-foreground">
-        By submitting this form, you agree that The Barter Story may use these details to respond to
+        By submitting this form, you agree that Moment of Love may use these details to respond to
         your enquiry. Read our{' '}
         <a href="/privacy" className="underline underline-offset-2 hover:text-foreground">
           Privacy Policy

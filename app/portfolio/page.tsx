@@ -8,7 +8,7 @@ import { portfolioItems } from '@/lib/data'
 export const metadata: Metadata = {
   title: 'Portfolio',
   description:
-    'A collection of wedding stories photographed by The Barter Story across India, Thailand and beyond — honest, intimate and timeless.',
+    'A collection of wedding stories photographed by Moment of Love across India, Thailand and beyond — honest, intimate and timeless.',
 }
 
 export default function PortfolioPage() {
