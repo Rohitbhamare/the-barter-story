@@ -197,25 +197,25 @@ export const coupleGalleries: CoupleGallery[] = [
     testimonial:
       'Thank you for turning our wedding into timeless memories. Every photograph reflects genuine emotions and beautiful storytelling.',
     tone: 'oklch(0.58 0.11 350)',
-  },
-  {
-    slug: 'our-stories',
-    title: 'Our Stories',
-    location: 'Collection',
-    coverImage: '/images/arpita-jigar.png',
-    galleryImages: [
-      '/images/arpita-jigar.png',
-      '/images/sonam-robin-wide.png',
-      '/images/mallika-abhishek.png',
-      '/images/keval-urvashi.png',
-      '/images/uneza.png',
-      '/images/divya-charmis.png',
-      '/images/jaspunith-jaspinder.png',
-    ],
-    testimonial:
-      'A curated collection of our favourite wedding stories, moments, emotions and celebrations captured over the years.',
-    tone: 'oklch(0.70 0.07 70)',
-  },
+  // },
+  // {
+  //   slug: 'our-stories',
+  //   title: 'Our Stories',
+  //   location: 'Collection',
+  //   coverImage: '/images/arpita-jigar.png',
+  //   galleryImages: [
+  //     '/images/arpita-jigar.png',
+  //     '/images/sonam-robin-wide.png',
+  //     '/images/mallika-abhishek.png',
+  //     '/images/keval-urvashi.png',
+  //     '/images/uneza.png',
+  //     '/images/divya-charmis.png',
+  //     '/images/jaspunith-jaspinder.png',
+  //   ],
+  //   testimonial:
+  //     'A curated collection of our favourite wedding stories, moments, emotions and celebrations captured over the years.',
+  //   tone: 'oklch(0.70 0.07 70)',
+  // },
 ]
 
 export const portfolioItems: PortfolioItem[] = [
