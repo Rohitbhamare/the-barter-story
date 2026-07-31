@@ -104,7 +104,7 @@ export function FilmsList({ films }: { films: FilmItem[] }) {
               {active.videoUrl ? (
                 <div className="relative aspect-video w-full bg-black">
                   <iframe
-                    src={`${activvideoUr`}
+                    src={'{active.videoUrl}'}
                     className="h-full w-full"
                     allow="autoplay"
                     title={active.title}
