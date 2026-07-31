@@ -16,8 +16,8 @@ export const footerLinks: NavLink[] = [
 ]
 
 export const social = {
-  instagram: 'https://instagram.com/momentoflove',
-  whatsapp: 'https://wa.me/910000000000',
+  instagram: 'https://www.instagram.com/__moment.of.love',
+  whatsapp: 'https://wa.me/9170837 61636',
   youtube: 'https://youtube.com/@momentoflove',
   email: 'hello@momentoflove.com',
   handle: '@momentoflove',
@@ -308,17 +308,17 @@ export type Testimonial = {
 
 export const testimonials: Testimonial[] = [
   {
-    couple: 'Arpita & Jigar',
+    couple: 'Siddesh & Ashwini',
     quote:
       'Our wedding photos are nothing short of magical, thanks to your remarkable talent and keen eye for aesthetics. Each shot is a masterpiece, beautifully capturing the essence of our joy and love in ways we never imagined possible. Your dedication, creativity, and professionalism have given us timeless memories that we will treasure forever.',
   },
   {
-    couple: 'Swangita & Sohil',
+    couple: 'Shiv and Divya',
     quote:
       'Some moments are too special to put into words — but you somehow managed to capture them all, frame by frame, heartbeat by heartbeat. Working with you felt effortless, like dancing in our own little world while you quietly turned love into light and laughter. Every photo speaks in whispers — natural, candid, and soaked in elegance. Thank you for keeping our story alive for years.',
   },
   {
-    couple: 'Sonam & Robin',
+    couple: 'Neha and Bhavneet',
     quote:
       'A huge thank you to our terrific team! The captured moments made our wedding story come alive. Their keen eye for detail — noticing the subtle dance of shadows, capturing reflections at just the right shade — left us truly impressed. The balance between candid shots and carefully posed portraits has given us a timeless collection of memories, one that feels both authentic and artfully crafted.',
   },

@@ -33,7 +33,7 @@ export function Believe() {
         <div className="flex flex-col gap-16">
           <Reveal className="relative aspect-[4/5] overflow-hidden" delay={0.05}>
             <Image
-              src="/images/bride-veil-bw.png"
+              src="https://lh3.googleusercontent.com/d/1XUIHr4HlAY6jlMz4bXRHZz3Uqg5d1GJD"
               alt="Bride in an embroidered veil during a wedding ritual"
               fill
               sizes="(max-width: 768px) 100vw, 45vw"
@@ -48,7 +48,7 @@ export function Believe() {
         <div className="flex flex-col gap-16 md:pt-24">
           <Reveal className="relative aspect-[4/5] overflow-hidden" delay={0.1}>
             <Image
-              src="/images/couple-formal.png"
+              src="https://lh3.googleusercontent.com/d/1E64oge2xt2j0TXBtkze_XZKYsbUunDp7"
               alt="Elegant couple in an ornate palace interior"
               fill
               sizes="(max-width: 768px) 100vw, 45vw"
@@ -60,7 +60,7 @@ export function Believe() {
           </Reveal>
           <Reveal className="relative aspect-[4/5] overflow-hidden" delay={0.05}>
             <Image
-              src="/images/tender-couple.png"
+              src="https://lh3.googleusercontent.com/d/1zXtp84YihDSmvOsFg5ZrTA0bfCk6hBfN"
               alt="A tender close-up of a bride and groom"
               fill
               sizes="(max-width: 768px) 100vw, 45vw"
