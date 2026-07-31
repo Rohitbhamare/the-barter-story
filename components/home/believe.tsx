@@ -33,7 +33,7 @@ export function Believe() {
         <div className="flex flex-col gap-16">
           <Reveal className="relative aspect-[4/5] overflow-hidden" delay={0.05}>
             <Image
-              src="https://lh3.googleusercontent.com/d/1pqOpbrahxK02mHNxfUKQdI3gXxyleB96"
+              src="https://lh3.googleusercontent.com/d/1LwUXK-kRlYnVI5tf4-VTi63jxMPAjxcN"
               alt="Bride in an embroidered veil during a wedding ritual"
               fill
               sizes="(max-width: 768px) 100vw, 45vw"
