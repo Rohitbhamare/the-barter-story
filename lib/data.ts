@@ -115,10 +115,6 @@ export const coupleGalleries: CoupleGallery[] = [
       'Every photo speaks in whispers — natural, candid, and soaked in elegance. Thank you for keeping our story alive for years.',
     tone: 'oklch(0.68 0.05 62)',
   },
-
-
-
-  // asdfbdf my code 
   {
     slug: 'akshay-dipali',
     title: 'Akshay and Dipali',
@@ -170,9 +166,7 @@ export const coupleGalleries: CoupleGallery[] = [
     testimonial:
       'A curated collection of our favourite wedding stories, moments, emotions and celebrations captured over the years.',
     tone: 'oklch(0.70 0.07 70)',
-  }
-
-
+  },
 ]
 
 export const portfolioItems: PortfolioItem[] = [
@@ -209,21 +203,21 @@ export const portfolioItems: PortfolioItem[] = [
     location: 'India',
     image: '/images/divya-charmis.png',
     tone: 'oklch(0.3 0.01 60)',
-    link: 'https://drive.google.com/open?id=1_2so4-fXK3YFs_xIUx0UjfPUd0I5gu-T&usp=drive_copy',
+    slug: 'akshay-dipali',
   },
   {
     title: 'Abhijeet and Vaishanvee',
     location: 'India',
     image: '/images/jaspunith-jaspinder.png',
     tone: 'oklch(0.58 0.11 350)',
-    link: 'https://drive.google.com/open?id=1PiPIRn_j1_ddRQILz5WAEvJlGufzXT8a&usp=drive_copy',
+    slug: 'abhijeet-vaishanvee',
   },
   {
     title: 'Our Stories',
     location: 'Collection',
     image: '/images/arpita-jigar.png',
     tone: 'oklch(0.7 0.07 70)',
-    link: 'https://drive.google.com/open?id=1HJTs7f9KMFobHhI3GGiJEFS2YDnuQ7lf&usp=drive_copy',
+    slug: 'our-stories',
   },
 ]
 

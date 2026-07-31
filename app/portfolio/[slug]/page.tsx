@@ -118,6 +118,28 @@ export default async function GalleryPage({ params }: Props) {
           </div>
         </section>
 
+        {/* Our Story Section */}
+        <section className="bg-muted py-16 md:py-24">
+          <div className="mx-auto max-w-2xl px-5 sm:px-8">
+            <Reveal delay={0.1} className="space-y-6 text-center">
+              <h2 className="font-serif text-3xl uppercase tracking-wide sm:text-4xl">
+                Our Story
+              </h2>
+              <div className="space-y-4 text-sm leading-relaxed text-foreground/70 md:text-base">
+                <p>
+                  We create wedding stories through an honest lens, blending documentary authenticity with editorial elegance. Every celebration we capture is treated as a love letter — intimate, timeless, and deeply personal.
+                </p>
+                <p>
+                  Our philosophy centers on understanding the nuances of your day. We&apos;re present without being intrusive, capturing the quiet moments alongside the grand celebrations — the hand-holds, the shared glances, the unspoken promises.
+                </p>
+                <p>
+                  At Moment of Love, we believe your wedding story deserves to be told beautifully. We&apos;re here to ensure every emotion, every detail, and every heartbeat is remembered exactly as it was.
+                </p>
+              </div>
+            </Reveal>
+          </div>
+        </section>
+
         {/* CTA Section */}
         <section className="mx-auto max-w-4xl px-5 py-16 sm:px-8 md:py-24">
           <Reveal className="flex flex-col items-center gap-8 text-center">
