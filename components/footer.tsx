@@ -19,7 +19,7 @@ export function Footer() {
                 aria-label="Instagram"
                 className="transition-colors hover:text-foreground"
               >
-                <Instagram className="h-5 w-5" />
+                <InstagramIcon className="h-5 w-5" />
               </a>
               <a
                 href={social.whatsapp}
@@ -37,10 +37,10 @@ export function Footer() {
                 aria-label="YouTube"
                 className="transition-colors hover:text-foreground"
               >
-                <Youtube className="h-5 w-5" />
+                <YoutubeIcon className="h-5 w-5" />
               </a>
               <span className="ml-2 text-xs uppercase tracking-brand text-muted-foreground">
-                © 2026 The Barter Story
+                © 2026 Moment of Love
               </span>
             </div>
           </div>

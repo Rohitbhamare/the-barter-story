@@ -27,32 +27,32 @@ const SITE_URL = 'https://thebarterstory.vercel.app'
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'The Barter Story — Timeless Wedding Photography & Films',
-    template: '%s | The Barter Story',
+    default: 'Moment of Love — Timeless Wedding Photography & Films',
+    template: '%s | Moment of Love',
   },
   description:
-    'The Barter Story captures honest, intimate wedding stories across the world — minimalist in approach, rich in feeling. Photography and films that feel as meaningful as the moments themselves.',
+    'Moment of Love captures honest, intimate wedding stories across the world — minimalist in approach, rich in feeling. Photography and films that feel as meaningful as the moments themselves.',
   keywords: [
     'wedding photography',
     'wedding films',
     'documentary wedding',
     'India wedding photographer',
     'destination wedding',
-    'The Barter Story',
+    'Moment of Love',
   ],
-  authors: [{ name: 'The Barter Story' }],
+  authors: [{ name: 'Moment of Love' }],
   openGraph: {
     type: 'website',
     url: SITE_URL,
-    siteName: 'The Barter Story',
-    title: 'The Barter Story — Timeless Wedding Photography & Films',
+    siteName: 'Moment of Love',
+    title: 'Moment of Love — Timeless Wedding Photography & Films',
     description:
       'Honest, intimate wedding stories — minimalist in approach, rich in feeling.',
-    images: [{ url: '/images/hero-bw.png', width: 1200, height: 630, alt: 'The Barter Story' }],
+    images: [{ url: '/images/hero-bw.png', width: 1200, height: 630, alt: 'Moment of Love' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'The Barter Story — Timeless Wedding Photography & Films',
+    title: 'Moment of Love — Timeless Wedding Photography & Films',
     description:
       'Honest, intimate wedding stories — minimalist in approach, rich in feeling.',
     images: ['/images/hero-bw.png'],

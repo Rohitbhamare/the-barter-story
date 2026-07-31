@@ -1,10 +1,11 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import type { PortfolioItem } from '@/lib/data'
 import { Reveal } from '@/components/reveal'
 
 export function PortfolioCard({ item, priority }: { item: PortfolioItem; priority?: boolean }) {
-  return (
-    <Reveal as="li" className="group">
+  const content = (
+    <>
       <div className="relative aspect-[16/7] min-h-[220px] w-full overflow-hidden">
         <Image
           src={item.image || '/placeholder.svg'}
@@ -29,6 +30,37 @@ export function PortfolioCard({ item, priority }: { item: PortfolioItem; priorit
           {item.location}
         </p>
       </div>
+    </>
+  )
+
+  if (item.slug) {
+    return (
+      <Reveal as="li" className="group">
+        <Link href={`/portfolio/${item.slug}`} className="block cursor-pointer">
+          {content}
+        </Link>
+      </Reveal>
+    )
+  }
+
+  if (item.link) {
+    return (
+      <Reveal as="li" className="group">
+        <a
+          href={item.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block cursor-pointer"
+        >
+          {content}
+        </a>
+      </Reveal>
+    )
+  }
+
+  return (
+    <Reveal as="li" className="group">
+      {content}
     </Reveal>
   )
 }

@@ -22,7 +22,7 @@ export function Believe() {
           At
         </span>
         <span className="font-script text-6xl leading-[0.9] text-foreground sm:text-7xl">
-          The Barter Story
+          Moment of Love
         </span>
         <span className="mt-2 pl-1 text-sm font-medium uppercase tracking-brand text-foreground/70">
           We Believe In
