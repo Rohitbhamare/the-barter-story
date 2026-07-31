@@ -156,7 +156,7 @@ export const coupleGalleries: CoupleGallery[] = [
     location: 'India',
     coverImage: "https://lh3.googleusercontent.com/d/11bupF9sAhrpGV3FASRQvT2AezKSh119N",
     galleryImages: [
-      "https://lh3.googleusercontent.com/d/1_1XEW2BTaDg3D8XPtT7ReUBFHKwo_CwR",
+      "https://lh3.googleusercontent.com/d/11bupF9sAhrpGV3FASRQvT2AezKSh119N",
       "https://lh3.googleusercontent.com/d/1SHBoAlzHPD7H--NrLN74pGcwFuXUMVe2",
       "https://lh3.googleusercontent.com/d/1ws6RPlGfMSFPL5oT50eiY_qtTyf-VNXX",
       "https://lh3.googleusercontent.com/d/1i4AYY17zwc5YSZB_0qoKbkeIv5bq2Fr8",
