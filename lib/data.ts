@@ -250,7 +250,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Akshay and Dipali',
     location: 'India',
-    image: '/images/divya-charmis.png',
+    image: "https://lh3.googleusercontent.com/d/1ocRhtQkmG7YcfoB2ai77_hxaXysPSWCJ",
     tone: 'oklch(0.3 0.01 60)',
     slug: 'akshay-dipali',
   },
