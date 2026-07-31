@@ -229,14 +229,14 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Shiv and Divya',
     location: 'India',
-    image: '/images/mallika-abhishek.png',
+    image: "https://lh3.googleusercontent.com/d/1_OPtX9rjBAcOeb6zTa4dheGfE3JeKbh_",
     tone: 'oklch(0.5 0.12 145)',
     slug: 'shiv-divya',
   },
   {
     title: 'Neha and Bhavneet',
     location: 'India',
-    image: '/images/keval-urvashi.png',
+    image: "https://lh3.googleusercontent.com/d/1880114Ge5-86lub2mA3HQm62rB3UHMet",
     tone: 'oklch(0.28 0.01 60)',
     slug: 'neha-bhavneet',
   },
