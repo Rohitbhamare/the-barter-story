@@ -5,7 +5,7 @@ export function PortfolioBand() {
   return (
     <section className="relative aspect-[16/6] min-h-[320px] w-full overflow-hidden">
       <Image
-        src="https://lh3.googleusercontent.com/d/1ZhzrhIkaNwSH172i9HuECHBMS5RUEBPt"
+        src="https://lh3.googleusercontent.com/d/1ce1bQKqAmAyJED58DtWrmrgg24aVRFKk"
         alt="Dreamy silhouette of a couple by the sea"
         fill
         sizes="100vw"
