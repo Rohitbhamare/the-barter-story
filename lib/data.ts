@@ -29,7 +29,93 @@ export type PortfolioItem = {
   image: string
   tone: string
   link?: string
+  slug?: string
+  galleryImages?: string[]
+  testimonial?: string
 }
+
+export type CoupleGallery = {
+  slug: string
+  title: string
+  location: string
+  coverImage: string
+  galleryImages: string[]
+  testimonial: string
+  tone: string
+}
+
+export const coupleGalleries: CoupleGallery[] = [
+  {
+    slug: 'siddesh-ashwini',
+    title: 'Siddesh & Ashwini',
+    location: 'India',
+    coverImage: '/images/sonam-robin-wide.png',
+    galleryImages: [
+      '/images/sonam-robin-wide.png',
+      '/images/mallika-abhishek.png',
+      '/images/keval-urvashi.png',
+      '/images/uneza.png',
+      '/images/divya-charmis.png',
+      '/images/jaspunith-jaspinder.png',
+      '/images/arpita-jigar.png',
+      '/images/sonam-robin.png',
+    ],
+    testimonial:
+      'Our wedding photos are nothing short of magical, thanks to your remarkable talent and keen eye for aesthetics. Each shot is a masterpiece, beautifully capturing the essence of our joy and love in ways we never imagined possible.',
+    tone: 'oklch(0.72 0.06 60)',
+  },
+  {
+    slug: 'shiv-divya',
+    title: 'Shiv and Divya',
+    location: 'India',
+    coverImage: '/images/mallika-abhishek.png',
+    galleryImages: [
+      '/images/mallika-abhishek.png',
+      '/images/keval-urvashi.png',
+      '/images/uneza.png',
+      '/images/divya-charmis.png',
+      '/images/sonam-robin-wide.png',
+      '/images/jaspunith-jaspinder.png',
+      '/images/arpita-jigar.png',
+    ],
+    testimonial:
+      'Some moments are too special to put into words — but you somehow managed to capture them all, frame by frame, heartbeat by heartbeat. Working with you felt effortless, like dancing in our own little world.',
+    tone: 'oklch(0.5 0.12 145)',
+  },
+  {
+    slug: 'neha-bhavneet',
+    title: 'Neha and Bhavneet',
+    location: 'India',
+    coverImage: '/images/keval-urvashi.png',
+    galleryImages: [
+      '/images/keval-urvashi.png',
+      '/images/uneza.png',
+      '/images/divya-charmis.png',
+      '/images/sonam-robin-wide.png',
+      '/images/mallika-abhishek.png',
+      '/images/arpita-jigar.png',
+    ],
+    testimonial:
+      'A huge thank you to our terrific team! The captured moments made our wedding story come alive. Their keen eye for detail left us truly impressed.',
+    tone: 'oklch(0.28 0.01 60)',
+  },
+  {
+    slug: 'aryan-ishmeet',
+    title: 'Aryan and Ishmeet',
+    location: 'India',
+    coverImage: '/images/uneza.png',
+    galleryImages: [
+      '/images/uneza.png',
+      '/images/divya-charmis.png',
+      '/images/sonam-robin-wide.png',
+      '/images/mallika-abhishek.png',
+      '/images/keval-urvashi.png',
+    ],
+    testimonial:
+      'Every photo speaks in whispers — natural, candid, and soaked in elegance. Thank you for keeping our story alive for years.',
+    tone: 'oklch(0.68 0.05 62)',
+  },
+]
 
 export const portfolioItems: PortfolioItem[] = [
   {
@@ -37,28 +123,28 @@ export const portfolioItems: PortfolioItem[] = [
     location: 'India',
     image: '/images/sonam-robin-wide.png',
     tone: 'oklch(0.72 0.06 60)',
-    link: 'https://drive.google.com/open?id=1jqd8e8tdof69Kk4mcxXJILjJ3dxRnII-&usp=drive_copy',
+    slug: 'siddesh-ashwini',
   },
   {
     title: 'Shiv and Divya',
     location: 'India',
     image: '/images/mallika-abhishek.png',
     tone: 'oklch(0.5 0.12 145)',
-    link: 'https://drive.google.com/open?id=1GyAZs08EZF4YjfPiXf28nlrRplj2lSGf&usp=drive_copy',
+    slug: 'shiv-divya',
   },
   {
     title: 'Neha and Bhavneet',
     location: 'India',
     image: '/images/keval-urvashi.png',
     tone: 'oklch(0.28 0.01 60)',
-    link: 'https://drive.google.com/open?id=1DHE7IAEZdJC10JUjuJw4dcPIulVfpneR&usp=drive_copy',
+    slug: 'neha-bhavneet',
   },
   {
     title: 'Aryan and Ishmeet',
     location: 'India',
     image: '/images/uneza.png',
     tone: 'oklch(0.68 0.05 62)',
-    link: 'https://drive.google.com/open?id=1kQNQH0fqAtT7yquqdKV5Mz8nCs0OwvHo&usp=drive_copy',
+    slug: 'aryan-ishmeet',
   },
   {
     title: 'Akshay and Dipali',

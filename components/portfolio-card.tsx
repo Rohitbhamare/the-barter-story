@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import type { PortfolioItem } from '@/lib/data'
 import { Reveal } from '@/components/reveal'
 
@@ -31,6 +32,16 @@ export function PortfolioCard({ item, priority }: { item: PortfolioItem; priorit
       </div>
     </>
   )
+
+  if (item.slug) {
+    return (
+      <Reveal as="li" className="group">
+        <Link href={`/portfolio/${item.slug}`} className="block cursor-pointer">
+          {content}
+        </Link>
+      </Reveal>
+    )
+  }
 
   if (item.link) {
     return (
