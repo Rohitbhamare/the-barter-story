@@ -103,12 +103,27 @@ export function FilmsList({ films }: { films: FilmItem[] }) {
             >
               {active.videoUrl ? (
                 <div className="relative aspect-video w-full bg-black">
-                  <iframe
+                  {
+
+
+                    <iframe
+                      className="h-full w-full"
+                      src={`https://www.youtube.com/embed/${active.videoUrl}`}
+                      title={active.title}
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerPolicy="strict-origin-when-cross-origin"
+                      allowFullScreen
+                    />
+
+
+
+                  /* <iframe
                     src={`https://drive.google.com/file/d/${active.videoUrl.split('/d/')[1]?.split('/')[0]}/preview`}
                     className="h-full w-full"
                     allow="autoplay"
                     title={active.title}
-                  />
+                  /> */}
                 </div>
               ) : (
                 <div className="relative aspect-video w-full bg-black">
